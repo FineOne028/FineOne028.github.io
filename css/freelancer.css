@@ -4076,10 +4076,14 @@ input[type="button"].btn-block {
   white-space: nowrap;
 }
 
-.navbar-brand:hover, .navbar-brand:focus {
-  color: var(--pink);
-  text-decoration: none;
+.navbar-brand,
+.nav-link,
+.navbar-toggler {
+  padding-bottom: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 1.2;
 }
+
 
 .navbar-brand, .navbar-nav {
   display: flex;
