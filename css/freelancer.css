@@ -4081,6 +4081,11 @@ input[type="button"].btn-block {
   text-decoration: none;
 }
 
+.navbar-brand, .navbar-nav {
+  display: flex;
+  align-items: flex-end;
+}
+
 .navbar-nav {
   display: flex;
   flex-direction: column;
